@@ -60,12 +60,12 @@ To isolate client developers within safe execution parameters, user workspaces w
 ### **Group Strategy and Provisioning**
 A dedicated systems management group named webdevs was established. A restricted client user workspace account named maxwelcyber was provisioned and attached to it:
 
-**Create the secure developer coordination group**
+* **Create the secure developer coordination group**
 ```bash
 sudo groupadd decodelabs
 ```
 
-**Provision the client identity and append it to the team group infrastructure**
+* **Provision the client identity and append it to the team group infrastructure**
 ```bash
 sudo useradd -m -g decodelab maxwelcyber
 ```
