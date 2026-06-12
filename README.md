@@ -45,7 +45,7 @@ sudo apt install nginx -y
 Rather than serving the boilerplate Nginx landing block, the environment root file system structure was updated. A premium, modern dark-themed web status portal dashboard displaying a dynamic "Mission Accomplished" was deployed. 
 
 * 📁 View the raw code template here: **[Web Source Directory](./index.html)**
-* 📄 View the visual representation here: **[web interface](./screenshot/web-interface.png)**
+* 📄 View the web-nterface representation here: **[web interface](./screenshot/web-interface.png)**
 
 ---
 
