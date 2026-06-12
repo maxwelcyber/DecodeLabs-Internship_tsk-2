@@ -49,4 +49,5 @@ Rather than serving the boilerplate Nginx landing block, the environment root fi
 ## 👥 Identity, Governance, & Multi-Tenant Linux Security
 Handing over full root administrative access credentials (sudo) to client-side developers introduces extensive compliance, operational, and system-wide security liabilities. A reckless command or improper dependency patch could corrupt system libraries.
 
-To remediate this, a robust access control model was implemented across both cloud resources and the server's OS kernel file boundaries.
+To remediate this, a robust access control model was implemented across both cloud resources and the server's OS kernel file boundaries. 
+* 📁 View the image here: **[access-control](/screenshot/chmod-chown)**
