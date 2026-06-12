@@ -51,3 +51,21 @@ Handing over full root administrative access credentials (sudo) to client-side d
 
 To remediate this, a robust access control model was implemented across both cloud resources and the server's OS kernel file boundaries. 
 * 📁 View the image here: **[access directory](./screenshot/chmod-chown.png)**
+
+* **🌤️ Cloud Plane Governance (Azure IAM)**
+Role-Based Access Control limits infrastructure configuration drift. The client’s identity inside the Azure management tenant was locked to a restrictive Reader role, granting visual resource audits while entirely preventing unauthorized compute modifications.
+
+* **🐧 OS-Level Access Control (Granular Permissions)**
+To isolate client developers within safe execution parameters, user workspaces were locked directly to the active application directory footprint
+
+* **Group Strategy and Provisioning**
+A dedicated systems management group named webdevs was established. A restricted client user workspace account named maxwelcyber was provisioned and attached to it:
+# Create the secure developer coordination group
+```bash
+sudo groupadd webdevs
+```
+
+# Provision the client identity and append it to the team group infrastructure
+```bash
+sudo useradd -m -g webdevs maxwelcyber
+```
