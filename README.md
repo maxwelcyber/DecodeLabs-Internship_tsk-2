@@ -50,7 +50,6 @@ Rather than serving the boilerplate Nginx landing block, the environment root fi
 Handing over full root administrative access credentials (sudo) to client-side developers introduces extensive compliance, operational, and system-wide security liabilities. A reckless command or improper dependency patch could corrupt system libraries.
 
 To remediate this, a robust access control model was implemented across both cloud resources and the server's OS kernel file boundaries. 
-* 📁 View the image here: **[access directory](./screenshot/chmod-chown.png)**
 
 * **🌤️ Cloud Plane Governance (Azure IAM)**
 Role-Based Access Control limits infrastructure configuration drift. The client’s identity inside the Azure management tenant was locked to a restrictive Reader role, granting visual resource audits while entirely preventing unauthorized compute modifications.
