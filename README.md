@@ -75,7 +75,7 @@ The deployment root folder permissions were rewritten recursively (-R) using a h
 
 * **Establish explicit user and group ownership across the deployment tree**
 ```Bash
-sudo chown -R maxwelcyber:webdevs /var/www/html/
+sudo chown -R maxwelcyber:decodelabs /var/www/html/
 ```
 * **Enforce secure operational modes with forced directory inheritance strings***
 ```bash
