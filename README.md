@@ -69,3 +69,16 @@ sudo groupadd decodelabs
 ```bash
 sudo useradd -m -g decodelab maxwelcyber
 ```
+
+### The Permission Matrix Setup
+The deployment root folder permissions were rewritten recursively (-R) using a highly tuned octal access notation code (2775):
+
+* **Establish explicit user and group ownership across the deployment tree**
+```Bash
+sudo chown -R maxwelcyber:webdevs /var/www/html/
+```
+* **Enforce secure operational modes with forced directory inheritance strings***
+```bash
+sudo chmod -R 2775 /var/www/html/
+```
+
