@@ -14,6 +14,8 @@ Our client required a high-performance web application host providing complete c
 * **Operating System Platform:** Ubuntu 22.04 LTS (Long-Term Support)
 * **Web Server Delivery:** Nginx Engine (High-Performance HTTP Server)
 
+* 📄 View the visual deployment here: **[ubuntu deployment](./screenshot/deployment.png)**
+
 ---
 
 ## 🔒 Perimeter Security & Network Topology
