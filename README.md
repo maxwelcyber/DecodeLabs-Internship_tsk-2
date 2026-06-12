@@ -58,7 +58,7 @@ Role-Based Access Control limits infrastructure configuration drift. The clientâ
 To isolate client developers within safe execution parameters, user workspaces were locked directly to the active application directory footprint
 
 ### **Group Strategy and Provisioning**
-A dedicated systems management group named webdevs was established. A restricted client user workspace account named maxwelcyber was provisioned and attached to it:
+A dedicated systems management group named decodelabs was established. A restricted client user workspace account named maxwelcyber was provisioned and attached to it:
 
 * **Create the secure developer coordination group**
 ```bash
