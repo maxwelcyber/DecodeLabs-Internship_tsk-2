@@ -62,10 +62,10 @@ A dedicated systems management group named webdevs was established. A restricted
 
 **Create the secure developer coordination group**
 ```bash
-sudo groupadd webdevs
+sudo groupadd decodelabs
 ```
 
 **Provision the client identity and append it to the team group infrastructure**
 ```bash
-sudo useradd -m -g webdevs maxwelcyber
+sudo useradd -m -g decodelab maxwelcyber
 ```
